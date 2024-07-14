@@ -4,9 +4,17 @@ html body {
     overflow-x: hidden;
 }
 
+#nav1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 .event {
     width:100vw;
     height: 60vh;
+    margin-top: 70px;
     background-image: url(SnL6.JPG);
     transition: background-image 1s ease-in-out;
     background-size: cover;
