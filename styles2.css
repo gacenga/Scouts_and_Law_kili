@@ -1,0 +1,42 @@
+html body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.carousel {
+    margin-top: 70px;
+    width:100vw;
+    height:60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+    background-image: url(SnL4.jpg);
+}
+
+.trans {
+    transition: all 3s ease-in-out;
+}
+
+#nav1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.pic {
+    width:100vw;
+    height:60vh;
+    background-color: rgba(0, 0, 0, 0.445);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 10px;
+}
